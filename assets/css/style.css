@@ -1,5 +1,44 @@
 #navbar1 {
-    padding-left: 375px;
+    padding-left: 282px;
     margin-left: 100px;
     margin-right: 100px;
+    height: 145px;
+    background-color: navy;
+    
+}
+
+#navText {
+    font-size: 50px;
+    color: white;
+    margin-top: 24px;
+
+}
+
+#clearResultsButton {
+    margin-left: -83px;
+}
+
+.container {
+    width: 100%;
+}
+
+.card-header {
+    background-color: navy;
+    color: white;
+}
+
+.cardTop {
+    margin-top: 45px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#topArticles {
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.articleStyle {
+
 }
