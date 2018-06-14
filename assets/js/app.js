@@ -7,6 +7,7 @@ let end = $('#endDate').val() || 20180101;
 let topArticles =$('#topArticles').empty()
 
 function search() {
+    console.log(qty)
     // console.log('searching')
  
     let url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
@@ -18,7 +19,7 @@ function search() {
         'end_date': end,
         'page': 2,
     });
-    // console.log(url)
+    
 
     
 
